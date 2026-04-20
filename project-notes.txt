@@ -1,1 +1,6 @@
 final project repository setup complete
+
+
+So today I compleated the Game, GuessTheNumber, Main, and RockPaperSicissors file.(04/19/26)
+I made a system to take the users and imput and compare it to the computers number wich is random and told the user if it was higher or lower.(04/19/26)
+I also made the system for rock paper sicissors to check who won or if it was a tie depending on the computers response compared to the users input.
