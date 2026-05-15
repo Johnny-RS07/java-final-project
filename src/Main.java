@@ -12,9 +12,10 @@ public class Main {
         // establishes the base information
         Game guessGame = new GuessTheNumber("Guess the Number");
         Game RPSGame = new RockPaperScissors("Rock, Paper, Scissors");
+        Game triviaGame = new TriviaGame("Trivia Game");
 
         // Loops until user chooses to quit
-        while (choice != 3) {
+        while (choice != 4) {
 
 
             System.out.println("Welcome to the Java Game Hub");
@@ -22,12 +23,13 @@ public class Main {
             System.out.println("Please select a game you would like to play:");
             System.out.println("1. Guess the Number");
             System.out.println("2. Rock, Paper, Scissors");
-            System.out.println("3. Quit");
+            System.out.println("3. Trivia Game");
+            System.out.println("4. Quit");
 
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
 
-            System.out.println("/n");
+            System.out.println("\n");
 
             
             if (choice == 1) {
@@ -43,6 +45,12 @@ public class Main {
             } 
             
             else if (choice == 3) {
+            	triviaGame.start();
+            	triviaGame.play();
+
+            }
+            
+            else if (choice == 4) {
                 System.out.println("Goodbye!");
 
             } 
