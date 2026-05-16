@@ -7,7 +7,7 @@ public class RockPaperScissors extends Game {
     private Random random;
 
     // Constructor
-    public RockPaperSicissors(String name) {
+    public RockPaperScissors(String name) {
         super(name);
         scanner = new Scanner(System.in);
         random = new Random();
