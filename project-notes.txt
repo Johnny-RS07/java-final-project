@@ -4,3 +4,8 @@ final project repository setup complete
 So today I compleated the Game, GuessTheNumber, Main, and RockPaperSicissors file.(04/19/26)
 I made a system to take the users and imput and compare it to the computers number wich is random and told the user if it was higher or lower.(04/19/26)
 I also made the system for rock paper sicissors to check who won or if it was a tie depending on the computers response compared to the users input.
+
+
+Today I created the Highlow game and WordScramble as well as implementing the trivia game we created a couple weeks ago. 
+I also updated all the files to use error handeling. I actually ended up struggeling on the error handeling as well as the scrambeling of the words in the word scramble game. 
+I did all this work today May 15 2026 I should have probably done this through multiple days but I did not.
